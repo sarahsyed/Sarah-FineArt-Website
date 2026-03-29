@@ -1,0 +1,63 @@
+/* =========================
+   1. ROOT (Colors & Fonts)
+========================= */
+:root {
+  --primary-color: #111111;
+  --secondary-color: #666666;
+  --accent-color: #c9a96e; /* soft gold */
+  /*--background-color: #ffffff;*/
+
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
+}
+
+body {
+    background-color:cornflowerblue;
+}
+
+h1 {
+    /*background-color: green;*/
+    text-align:center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit:fill;
+  
+}
+;
+#parent-div {
+    overflow:auto;
+    gap: 20px;
+    
+}
+   
+
+.one {
+    /*background: #2a575a;*/
+    width:200px;
+    float:left;
+    padding:30px 30px;
+    justify-content: space-around;
+}
+
+.two {
+    /*background:#c42311;*/
+    width:200px;
+    float:left;
+    padding:30px 30px;
+}
+
+.three {
+    float:left;
+    padding:30px 30px;
+    clear: both;
+}
+
+footer {
+    justify-content:center;
+    clear:both;
+    display:grid;
+    
+}
