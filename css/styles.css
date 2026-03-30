@@ -26,20 +26,20 @@ img {
   object-fit:fill;
   
 }
-;
+
 #parent-div {
     overflow:auto;
     gap: 20px;
+    /*justify-content: space-between;*/
     
 }
-   
-
+  
 .one {
     /*background: #2a575a;*/
     width:200px;
     float:left;
     padding:30px 30px;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
 }
 
 .two {
@@ -50,6 +50,13 @@ img {
 }
 
 .three {
+    width:200px;
+    float:left;
+    padding:30px 30px;
+
+}
+
+.About {
     float:left;
     padding:30px 30px;
     clear: both;
