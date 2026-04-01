@@ -11,14 +11,32 @@
   --font-body: "Inter", sans-serif;
 }
 
+.content-wrapper {
+    width:1200px;
+    margin: 0 auto;
+    overflow:auto;
+}
+
 body {
     background-color:cornflowerblue;
 }
 
-h1 {
+header h1 {
     /*background-color: green;*/
-    text-align:center;
+    float:left;
+    width:300px;
 }
+
+header nav {
+    float:right;
+    width:300px
+    
+}
+
+header nav ul li {
+    display:inline-block;
+}
+
 
 img {
   width: 200px;
@@ -63,8 +81,6 @@ img {
 }
 
 footer {
-    justify-content:center;
-    clear:both;
-    display:grid;
+    text-align:center;
     
 }
